@@ -17,7 +17,12 @@ public class MonsterController {
 
     @Autowired
     MonsterService monsterService;
-
+    
+    @RequestMapping("/")
+    public String intro(){
+        return "Welcome to monsters API";
+    } 
+    
     @PostMapping
     public MessageResponseDto createMonster(@RequestBody @Valid MonsterDto monsterDto){
 
