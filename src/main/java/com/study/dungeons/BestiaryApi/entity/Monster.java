@@ -6,7 +6,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "monster")
@@ -17,8 +16,10 @@ import java.util.List;
 public class Monster {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.SEQUENCE, generator="monster_sequence")
-    @SequenceGenerator(name="monster_sequence", sequenceName="mons_seq")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+
+    @Column(nullable = false, unique = true)
     private String name;
 
     @Column(nullable = false)
@@ -53,16 +54,5 @@ public class Monster {
 
     @Column(nullable = false)
     private int challengeLevel;
-
-    @OneToMany(fetch = FetchType.LAZY,
-            cascade = {CascadeType.PERSIST,
-                    CascadeType.MERGE,
-                    CascadeType.REMOVE})
-    private List<Action> actionsList;
-
-    @OneToMany(fetch = FetchType.LAZY,
-            cascade = {CascadeType.PERSIST,
-                    CascadeType.MERGE, CascadeType.REMOVE})
-    private List<Hability> habilitiesList;
 
 }

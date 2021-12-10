@@ -1,0 +1,12 @@
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/DTO/request/HabilityDto.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/entity/Action.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/service/MonsterService.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/DTO/request/ActionDto.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/Mapper/MonsterMapper.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/repository/MonsterRepository.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/entity/Monster.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/DTO/response/MessageResponseDTO.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/DTO/request/MonsterDto.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/controller/MonsterController.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/entity/Hability.java
+/home/andrews/Downloads/BestiaryApi/src/main/java/com/study/dungeons/BestiaryApi/BestiaryApiApplication.java
