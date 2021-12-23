@@ -16,7 +16,7 @@ The api permits:
 
 - Create a new monster 
 - Update an existing monster
-- Search for an Monster by the name
+- Search for an monster by the name
 - Show all monsters 
 - Delete an existing monster
 
